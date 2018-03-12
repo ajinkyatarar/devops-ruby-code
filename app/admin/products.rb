@@ -12,4 +12,5 @@ ActiveAdmin.register Product do
 #   permitted
 # end
 
+permit_params :title, :sku, :description
 end
